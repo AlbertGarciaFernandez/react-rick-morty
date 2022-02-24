@@ -35,9 +35,9 @@ class Home extends Component {
        })
        .catch((error) => {
          this.setState({ hasError: true });
-         console.log(error);
+         
        });
-    console.log(this);
+    
   }
 
   render() {
